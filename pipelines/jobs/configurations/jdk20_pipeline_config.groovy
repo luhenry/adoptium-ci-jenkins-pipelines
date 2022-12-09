@@ -164,7 +164,19 @@ class Config20 {
                         'temurin'   : '--create-jre-image --create-sbom'
                 ],
                 test                : [
-                        weekly : ['sanity.openjdk', 'sanity.system', 'extended.system', 'sanity.perf']
+                        weekly : [
+                            'sanity.openjdk',
+                            'extended.openjdk',
+                            'dev.openjdk',
+                            'sanity.system',
+                            'extended.system',
+                            'dev.system',
+                            'sanity.perf',
+                            'extended.perf',
+                            'sanity.functional',
+                            'extended.functional',
+                            'special.functional'
+                        ]
                 ]
         ]
 
