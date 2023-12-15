@@ -166,6 +166,7 @@ class Config21 {
         riscv64Linux      :  [
                 os                  : 'linux',
                 arch                : 'riscv64',
+                dockerImage          : 'adoptopenjdk/ubuntu2004_build_image:linux-riscv64',
                 test                : 'default',
                 configureArgs       : '--enable-dtrace',
                 buildArgs           : [
